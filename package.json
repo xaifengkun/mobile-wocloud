@@ -1,0 +1,19 @@
+{
+  "name": "moblie-wocloud",
+  "version": "1.0.0",
+  "description": "''",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaifengkun/mobile-wocloud.git"
+  },
+  "author": "xiafengkn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaifengkun/mobile-wocloud/issues"
+  },
+  "homepage": "https://github.com/xaifengkun/mobile-wocloud#readme"
+}
