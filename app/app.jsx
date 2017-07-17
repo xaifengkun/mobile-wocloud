@@ -1,16 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Text from './pages/child';
+import { Router, Route } from 'react-router';
 require('./app.css');
-function App() {
-  return (
-    <div className="container">
-      <h1>Hello React!</h1>
-      <h2>你是谁？</h2>
-    </div>
-  );
-}
 
+ReactDOM.render((<Router><Route path="/" component={Text} /></Router>), document.body);
 
-const app = document.createElement('div');
-document.body.appendChild(app);
-ReactDOM.render(<App />, app);
